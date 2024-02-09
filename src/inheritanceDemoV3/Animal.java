@@ -6,6 +6,16 @@ public class Animal {
     protected int numberOfLegs;
     protected String diet;
 
+    public static void main(String[] args) {
+        Animal animal = new Animal();
+        Reptile reptile = new Reptile(true, true);
+        reptile.eat();
+        reptile.makeNoise();
+        Mammal mammal = new Mammal(true, true);
+        mammal.eat();
+        mammal.makeNoise();
+    }
+
     //this is a default constructor that sets the default values for the fields
     //this is added to this version 3. By adding this, we can now create an object of the Animal class without passing any parameters
     public Animal(){

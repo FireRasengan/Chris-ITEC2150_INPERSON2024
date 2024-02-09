@@ -33,7 +33,7 @@ public class Mammal extends Animal {
     }
 
     public Mammal(String name, boolean hasFur, boolean giveBirth){
-       // super();
+        super();
         this.hasFur = hasFur;
         this.giveBirth = giveBirth;
     }

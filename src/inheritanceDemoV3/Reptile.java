@@ -7,12 +7,12 @@ public class Reptile extends Animal {
     private boolean laysEggs;
 
     public Reptile(){
-        super(true, 4, "Carnivore");
+        //super(true, 4, "Carnivore");
     }
 
     public Reptile(boolean hasScales, boolean laysEggs){
 
-        super(true, 4, "Carnivore");
+        //super(true, 4, "Carnivore");
         this.hasScales = hasScales;
         this.laysEggs = laysEggs;
         //this();
@@ -20,7 +20,7 @@ public class Reptile extends Animal {
 
     public Reptile(boolean beingDangerous, int numberOfLegs, String diet, boolean hasScales, boolean laysEggs){
 
-        super(beingDangerous, numberOfLegs, diet);
+        //super(beingDangerous, numberOfLegs, diet);
         this.hasScales = hasScales;
         this.laysEggs = laysEggs;
 
@@ -28,19 +28,19 @@ public class Reptile extends Animal {
 
     public Reptile(Animal animal){
        // super(animal.isBeingDangerous(), animal.getNumberOfLegs(), animal.getDiet());
-         super(animal.beingDangerous,animal.numberOfLegs, animal.diet);
+         //super(animal.beingDangerous,animal.numberOfLegs, animal.diet);
     }
 
 
     @Override
     public void makeNoise(){
-        super.makeNoise();
+        //super.makeNoise();
         System.out.println(" Hiss~~~");
     }
 
     @Override
     public void eat(){
-        super.eat();
+        //super.eat();
         System.out.println(" Yummmy ");
     }
 
