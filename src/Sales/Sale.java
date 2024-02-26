@@ -59,6 +59,14 @@ public class Sale {
         return price;
     }
 
+    public boolean equalDeals(Sale compareSaleObject) {
+        if (compareSaleObject == null) {
+            return false;
+        } else {
+            return (this.totalPrice() == compareSaleObject.totalPrice())
+                    && this.name.equals(compareSaleObject.name);
+        }
+    }
 
     public boolean equals(Object obj) {
         if (obj == null) {
@@ -67,7 +75,24 @@ public class Sale {
             return false;
         } else {
             Sale sObj = (Sale)obj;
+            return (this.name.equals(sObj.name)) && (this.price == (sObj.price));
         }
+    }
+
+    public boolean greaterThan(Sale so) {
+        if (so == null) {
+            System.out.println("error. ");
+            System.exit(1);
+        }
+        return totalPrice() > so.totalPrice();
+    }
+
+    public boolean lessThan(Sale so) {
+        if (so == null) {
+            System.out.println("error. ");
+            System.exit(1);
+        }
+        return totalPrice() < so.totalPrice();
     }
 
     public String toString(){
