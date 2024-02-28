@@ -42,14 +42,9 @@ public class DiscountSale extends Sale{
         return newPrice;
     }
 
-
     public String toString(){
         return String.format("The %s's discount rate you will get is %.1f, " +
                 "its original price is %.2f and your sales price is %.2f"
                 ,getName(),getDiscountRate(), getPrice(),totalPrice());
     }
-
-
-
 }
-
