@@ -11,6 +11,6 @@ public abstract class Doctor {
         return name;
     }
 
-    public abstract void getSchedule();
+    public abstract String getSchedule();
 
 }
