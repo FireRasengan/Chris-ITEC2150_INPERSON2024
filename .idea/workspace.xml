@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86156cd-bbf1-4347-bbd5-933014512dcc" name="Changes" comment="all committed">
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/GameUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/ISavable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/VehicleTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfacesDemo/Game/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/King.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709313214176</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="all committed">
+      <created>1710173756682</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710173756682</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
