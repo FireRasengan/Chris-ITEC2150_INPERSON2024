@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f86156cd-bbf1-4347-bbd5-933014512dcc" name="Changes" comment="all committed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfacesDemo/Game/GameUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/GameUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfacesDemo/Game/ISavable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/ISavable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterfacesDemo/Game/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfacesDemo/Game/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfacesDemo/Game/Queen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710173756682</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="all committed">
+      <created>1710343458120</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710343458120</updated>
+    </task>
+    <task id="LOCAL-00018" summary="all committed">
+      <created>1710346402315</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710346402315</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
