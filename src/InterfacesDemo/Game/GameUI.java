@@ -5,11 +5,23 @@ import java.util.Scanner;
 
 public class GameUI {
     public static void main(String[] args) {
+        GameUI gu = new GameUI();
         ISavable k1 = new King("Henry the King", 2, "one at a time in any direction", "Black");
         ISavable q1 = new Queen("Elizabeth the Queen", 6, "any direction as far", "White");
 
         saveObject(k1);
         saveObject(q1);
+
+        if (gu.compare(k1, q1) == -1) {
+            System.out.println("Queen wins");
+        }
+        else if (gu.compare(k1, q1) == 1) {
+            System.out.println("King wins");
+        }
+        else System.out.println("Draw");
+    }
+
+    private int compare() {
 
     }
 
