@@ -73,4 +73,12 @@ public class Queen implements ISavable {
     public String toString() {
         return "Queen: " + name + " points: " + points + ", direction: " + direction + ", color: " + color;
     }
+
+    public int compareTo(ISavable other) {
+        if(other instanceof ICharacter) {
+            ICharacter otherCharacter = (ICharacter) other;
+            return Integer.compare(this.points, otherCharacter.getPoints());
+        }
+        throw new IllegalArgumentException("Cannot compare with non-character objects");
+    }
 }

@@ -21,8 +21,13 @@ public class GameUI {
         else System.out.println("Draw");
     }
 
-    private int compare() {
-
+    public int compare(ISavable isa, ISavable isb){
+        if (isa instanceof IComparableCharacter && isb instanceof IComparableCharacter) {
+            int pointsA = ((IComparableCharacter)isa).getPoints();
+            int pointsB = ((IComparableCharacter)isb).getPoints();
+            return Integer.compare(pointsA, pointsB);
+        }
+        throw new RuntimeException("Objects do not support comparison");
     }
 
     public static void saveObject(ISavable isobj) {
