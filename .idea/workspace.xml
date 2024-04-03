@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86156cd-bbf1-4347-bbd5-933014512dcc" name="Changes" comment="all committed">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/CatchMultipleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/ExceptionHandlingMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/SumException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/SumExceptionHandling2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/FileReader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/ReverseRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/ReverseRetrieve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hamlet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandlingBasic/GradeDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/GradeDistribution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711383362122</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="all committed">
+      <created>1711555873588</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711555873588</updated>
+    </task>
+    <task id="LOCAL-00024" summary="all committed">
+      <created>1711556221149</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711556221149</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

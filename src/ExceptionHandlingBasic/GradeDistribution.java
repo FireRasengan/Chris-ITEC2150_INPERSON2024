@@ -10,7 +10,7 @@ public class GradeDistribution {
 
     }
 
-    public ArrayList<Double> gradeInput(Scanner input) {
+    /*public ArrayList<Double> gradeInput(Scanner input) {
 
-    }
+    }*/
 }
