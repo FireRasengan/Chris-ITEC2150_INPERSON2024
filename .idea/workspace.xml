@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86156cd-bbf1-4347-bbd5-933014512dcc" name="Changes" comment="all committed">
-      <change afterPath="$PROJECT_DIR$/src/FileReader/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileReader/FileReader2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileReader/ReverseRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileReader/ReverseRetrieve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hamlet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/WeatherAnalysis/weather.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/WritingFile/BufferedWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/WritingFile/BufferedWriterDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/WritingFile/PrintWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/WritingFile/WriteToFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader/WritingFile/dataoutput.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionHandlingBasic/GradeDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/GradeDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileIODemo/ReadFileAscendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileIODemo/ReadFileAscendingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileIODemo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileIODemo/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711556221149</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="all committed">
+      <created>1712160439800</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712160439800</updated>
+    </task>
+    <task id="LOCAL-00026" summary="all committed">
+      <created>1712160915296</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712160915296</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
