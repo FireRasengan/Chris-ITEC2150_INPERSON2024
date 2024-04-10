@@ -1,8 +1,6 @@
 package FileIODemo.Computing;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 class Statistics {
     double sum;
@@ -19,10 +17,14 @@ class Statistics {
 }
 public class DataComputation {
     public static void main(String[] args) {
-
+        Statistics stats = descriptiveStat("src/FileIODemo/Computing/data.txt");
+        String output = String.format("///Output\\\\\\ \nSum: %f\nAverage: %.2f\nHighest: %.1f\nLowest: %.1f\n",
+                stats.sum, stats.average, stats.highest, stats.lowest);
+        writeFile("src/FileIODemo/Computing/output.txt", output);
+        display(output);
     }
 
-    public Statistics descriptiveStat(String fileName) {
+    public static Statistics descriptiveStat(String fileName) {
         double sum = 0;
         double lowest = 0;
         double highest = 0;
@@ -50,5 +52,18 @@ public class DataComputation {
 
         double average = sum / count;
         return new Statistics(sum, lowest, highest, average);
+    }
+
+    public static void writeFile(String outputFileName, String content) {
+        try (FileWriter fw = new FileWriter(outputFileName);) {
+                BufferedWriter bw = new BufferedWriter(fw);
+                bw.write(content);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void display (String content) {
+
     }
 }
