@@ -23,5 +23,5 @@ public class GenericStack<E> {
         return x;
     }
 
-    public
+    //public
 }

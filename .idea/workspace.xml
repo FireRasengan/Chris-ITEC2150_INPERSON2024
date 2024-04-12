@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86156cd-bbf1-4347-bbd5-933014512dcc" name="Changes" comment="all committed">
-      <change afterPath="$PROJECT_DIR$/src/Generics/BeforeGenetics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Container/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Container/ContainerTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Container/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Stack/GenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Stack/GeneticStackTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/Calculator/BeforeGenerics/CalculatorBeforeGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/Calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/Calculator/CalculatorTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/GenericPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/GenericPairTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Maximum/MaxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Stack/GenericStackWildCard0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Swap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileIODemo/Computing/DataComputation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileIODemo/Computing/DataComputation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Stack/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Stack/GenericStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712593083650</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="all committed">
+      <created>1712765804903</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1712765804903</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
