@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86156cd-bbf1-4347-bbd5-933014512dcc" name="Changes" comment="all committed">
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/Calculator/BeforeGenerics/CalculatorBeforeGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/Calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/Calculator/CalculatorTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/GenericPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPairs/GenericPairTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Maximum/MaxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Stack/GenericStackWildCard0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MockTest/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MockTest/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MockTest/ReverseListRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MockTest/ReversePrintExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/Stack/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Stack/GenericStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Stack/GenericStackWildCard0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Stack/GenericStackWildCard0.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712765804903</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="all committed">
+      <created>1712938633940</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712938633940</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
